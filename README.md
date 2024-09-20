@@ -2,10 +2,6 @@
 
 Projekt ten to prosty kalkulator walut napisany w React, umożliwiający konwersję złotówek (PLN) na inne waluty. Użytkownik może wybrać jedną z kilku dostępnych walut i wprowadzić kwotę, aby obliczyć wartość w wybranej walucie.
 
-## Demo
-
-Aplikacja jest dostępna na GitHub Pages: [link do aplikacji](https://twojanazwa.github.io/nazwa-repozytorium)
-
 ## Funkcjonalności
 
 - Konwersja złotówek (PLN) na wybrane waluty (GBP, EUR, USD, CHF).
