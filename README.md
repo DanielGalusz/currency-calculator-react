@@ -1,29 +1,27 @@
-# To-do List React
+# Kalkulator Walut
 
-## Opis
+Projekt ten to prosty kalkulator walut napisany w React, umożliwiający konwersję złotówek (PLN) na inne waluty. Użytkownik może wybrać jedną z kilku dostępnych walut i wprowadzić kwotę, aby obliczyć wartość w wybranej walucie.
 
-Prosta aplikacja lista zadań (to-do list) zbudowana przy użyciu Reacta. Aplikacja umożliwia dodawanie, usuwanie i oznaczanie zadań jako wykonane. Projekt ten jest świetnym przykładem podstawowej aplikacji w React, demonstrującej obsługę stanu oraz interakcji użytkownika.
+## Demo
+
+Aplikacja jest dostępna na GitHub Pages: [link do aplikacji](https://twojanazwa.github.io/nazwa-repozytorium)
 
 ## Funkcjonalności
 
-- Dodawanie nowych zadań do listy.
-- Oznaczanie zadań jako wykonane.
-- Usuwanie zadań z listy.
-- Ukrywanie wykonanych zadań.
-- Oznaczanie wszystkich zadań jako wykonane.
+- Konwersja złotówek (PLN) na wybrane waluty (GBP, EUR, USD, CHF).
+- Wyświetlanie wyniku konwersji z dokładnością do dwóch miejsc po przecinku.
+- Prosty i intuicyjny interfejs użytkownika.
 
-## Struktura projektu
-- public/ – zawiera pliki publiczne, takie jak index.html.
-- src/ – główny kod źródłowy aplikacji:
-- components/ – komponenty aplikacji (TaskInput, TaskList, TaskControls).
-- App.js – główny komponent aplikacji.
-- App.css – style dla aplikacji.
-- package.json – konfiguracja projektu oraz zależności.
+## Technologie
 
-## Wymagania
-- Node.js (wersja 12 lub nowsza)
-- npm (Node Package Manager)
-## Technologie użyte w projekcie
-- React
-- JavaScript (ES6+)
-- HTML, CSS
+Projekt wykorzystuje następujące technologie:
+
+- **React** - biblioteka do budowy interfejsu użytkownika.
+- **CSS** - stylowanie aplikacji.
+- **JavaScript** - logika obliczeniowa kalkulatora.
+
+## Jak używać
+
+1. Wprowadź kwotę w złotówkach (PLN).
+2. Wybierz walutę, na którą chcesz przeliczyć wprowadzone złotówki.
+3. Kliknij przycisk "Przelicz", aby zobaczyć wynik konwersji.
